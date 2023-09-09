@@ -1,0 +1,46 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to \\.\pipe\code-96b075da-01bb-4905-9bf0-333a9711662c
+Extension host agent listening on \\.\pipe\code-96b075da-01bb-4905-9bf0-333a9711662c
+
+[13:55:07] 
+
+
+
+
+[13:55:07] Extension host agent started.
+[13:55:07] Started initializing default profile extensions in extensions installation folder. file:///c%3A/Users/Administrator/.vscode-server/extensions
+[13:55:07] Completed initializing default profile extensions in extensions installation folder. file:///c%3A/Users/Administrator/.vscode-server/extensions
+[13:55:08] [<unknown>][55e7c1b4][ManagementConnection] New connection established.
+[13:55:09] Installing extensions...
+[13:55:09] [<unknown>][3abe01aa][ExtensionHostConnection] New connection established.
+[13:55:09] [<unknown>][3abe01aa][ExtensionHostConnection] <17820> Launched Extension Host Process.
+[13:55:09] Installing extension 'ms-ceintl.vscode-language-pack-zh-hans'...
+[13:55:11] WSL is not installed, so could not detect WSL profiles
+[13:55:14] Getting Manifest... ms-ceintl.vscode-language-pack-zh-hans
+[13:55:14] Installing extension: ms-ceintl.vscode-language-pack-zh-hans
+[13:55:15] Extension signature is verified: ms-ceintl.vscode-language-pack-zh-hans
+[13:55:15] Extracted extension to file:///c%3A/Users/Administrator/.vscode-server/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.81.2023081609: ms-ceintl.vscode-language-pack-zh-hans
+[13:55:15] Renamed to c:\Users\Administrator\.vscode-server\extensions\ms-ceintl.vscode-language-pack-zh-hans-1.81.2023081609
+[13:55:15] Extracting extension completed. ms-ceintl.vscode-language-pack-zh-hans
+[13:55:15] Adding language packs from the extension ms-ceintl.vscode-language-pack-zh-hans
+[13:55:15] Extension installed successfully: ms-ceintl.vscode-language-pack-zh-hans
+[13:55:15] Extension 'ms-ceintl.vscode-language-pack-zh-hans' v1.81.2023081609 was successfully installed.
+[13:55:47] [<unknown>][55e7c1b4][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[13:55:47] Error: Throttler is disposed
+    at r.queue (C:\Users\Administrator\.vscode\cli\servers\Stable-6c3e3dba23e8fadc360aed75ce363ba185c49794\server\out\vs\server\node\server.main.js:70:13612)
+    at C:\Users\Administrator\.vscode\cli\servers\Stable-6c3e3dba23e8fadc360aed75ce363ba185c49794\server\out\vs\server\node\server.main.js:70:15183
+    at C:\Users\Administrator\.vscode\cli\servers\Stable-6c3e3dba23e8fadc360aed75ce363ba185c49794\server\out\vs\server\node\server.main.js:70:14822
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7)
+[13:55:47] [<unknown>][3abe01aa][ExtensionHostConnection] <17820> Extension Host Process exited with code: 0, signal: null.
+Cancelling previous shutdown timeout
+[13:55:47] Cancelling previous shutdown timeout
+Last EH closed, waiting before shutting down
+[13:55:47] Last EH closed, waiting before shutting down

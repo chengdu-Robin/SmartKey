@@ -1,0 +1,5 @@
+[user]
+	name = “chengdu-Robin”
+	email = 1107675659@qq.com”\ngit config user.name\n\n\n\n\n\n\ngit config --global user.email 1107675659@qq.com”
+[credential]
+	helper = manager-core

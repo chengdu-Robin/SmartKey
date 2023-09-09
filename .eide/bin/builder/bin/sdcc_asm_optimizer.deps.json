@@ -1,0 +1,58 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0/win-x64",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {},
+    ".NETCoreApp,Version=v6.0/win-x64": {
+      "sdcc_asm_optimizer/1.0.3": {
+        "dependencies": {
+          "Antlr4.Runtime.Standard": "4.10.1",
+          "CommandLineParser": "2.9.1"
+        },
+        "runtime": {
+          "sdcc_asm_optimizer.dll": {}
+        }
+      },
+      "Antlr4.Runtime.Standard/4.10.1": {
+        "runtime": {
+          "lib/netstandard2.0/Antlr4.Runtime.Standard.dll": {
+            "assemblyVersion": "4.10.1.0",
+            "fileVersion": "4.10.1.0"
+          }
+        }
+      },
+      "CommandLineParser/2.9.1": {
+        "runtime": {
+          "lib/netstandard2.0/CommandLine.dll": {
+            "assemblyVersion": "2.9.1.0",
+            "fileVersion": "2.9.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "sdcc_asm_optimizer/1.0.3": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Antlr4.Runtime.Standard/4.10.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vjfMsN8YnoMGnS7ihSjhDMOQDfHLkkZcaMxMUgqRoQt5tRkl4sFArXxlS0wXh9ej4sViqLe6LjsIv/VaTKmHTQ==",
+      "path": "antlr4.runtime.standard/4.10.1",
+      "hashPath": "antlr4.runtime.standard.4.10.1.nupkg.sha512"
+    },
+    "CommandLineParser/2.9.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OE0sl1/sQ37bjVsPKKtwQlWDgqaxWgtme3xZz7JssWUzg5JpMIyHgCTY9MVMxOg48fJ1AgGT3tgdH5m/kQ5xhA==",
+      "path": "commandlineparser/2.9.1",
+      "hashPath": "commandlineparser.2.9.1.nupkg.sha512"
+    }
+  }
+}
